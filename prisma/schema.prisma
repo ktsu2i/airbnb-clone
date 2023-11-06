@@ -54,7 +54,7 @@ model Listing {
   category String
   roomCount Int
   bathroomCount Int
-  guessCount Int
+  guestCount Int
   locationValue String
   userId String @db.ObjectId
   price Int
@@ -75,3 +75,5 @@ model Reservation {
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
   listing Listing @relation(fields: [listingId], references: [id], onDelete: Cascade)
 }
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
