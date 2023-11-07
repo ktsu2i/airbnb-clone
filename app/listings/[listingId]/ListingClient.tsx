@@ -6,7 +6,7 @@ import { useCallback, useEffect, useMemo, useState } from "react"
 import { useRouter } from "next/navigation"
 import { differenceInCalendarDays, eachDayOfInterval } from "date-fns"
 import axios from "axios"
-import toast from "react-hot-toast"
+import { toast } from "react-hot-toast"
 import { Range } from "react-date-range"
 
 import { categories } from "@/app/components/navbar/Categories"
