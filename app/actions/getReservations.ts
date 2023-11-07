@@ -44,11 +44,10 @@ export default async function getReservations(
       listing: {
         ...reservation.listing,
         createdAt: reservation.listing.createdAt.toISOString()
-      }
-    }))
+    }}))
 
     return safeReservations
-    
+
   } catch (error: any) {
     throw new Error(error)
   }
