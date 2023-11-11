@@ -20,6 +20,11 @@ Thank you for the awesome tutorial, Antonio!
 - See reservations of your places in My reservations
 - Filter places by category, country, duration of stay, and a number of guests
 
+### Additional Functionality
+I added my own functionality to the app after I completed the tutorial.
+It is working as desired but has one thing to fix (in progress).
+- Change your icon image in Settings
+
 ## Technologies
 - TypeScript
 - React, Node.js, Next.js, NextAuth.js
