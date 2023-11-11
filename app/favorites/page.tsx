@@ -14,7 +14,7 @@ const ListingPage = async () => {
       <ClientOnly>
         <EmptyState
           title="No favorites found"
-          subtitle="Looks like you have no favorite listings"
+          subtitle="Looks like you have no favorite listings."
         />
       </ClientOnly>
     )
