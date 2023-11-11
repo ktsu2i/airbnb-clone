@@ -9,7 +9,7 @@ import {
   SubmitHandler,
   useForm
 } from "react-hook-form"
-import { signIn } from "next-auth/react";
+import { signIn } from "next-auth/react"
 
 import useRegisterModal from "@/app/hooks/useRegisterModal"
 import Modal from "./Modal"
